@@ -177,6 +177,10 @@ class _HomeTabsScreenState extends State<HomeTabsScreen> with SingleTickerProvid
                   icon: const Icon(Icons.photo_library),
                   label: AppLocalizations.of(context).gallery,
                 ),
+                NavigationDestination(
+                  icon: const Icon(Icons.smart_toy),
+                  label: AppLocalizations.of(context).labelAiCoach,
+                ),
               ],
               onDestinationSelected: _onItemTapped,
               selectedIndex: _selectedIndex,
