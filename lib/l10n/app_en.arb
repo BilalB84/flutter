@@ -89,6 +89,10 @@
   "@labelDashboard": {
     "description": "Title for screen dashboard"
   },
+  "labelBottomNavAiCoach": "Coach",
+  "@labelBottomNavAiCoach": {
+    "description": "Label used for AI Coach button"
+  },
   "success": "Success",
   "@success": {
     "description": "Message when an action completed successfully, usually used as a heading"
